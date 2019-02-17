@@ -1,0 +1,130 @@
+body {
+ background-color: black;
+ color: white; 
+ margin: 0px;
+ height: 100%;
+ 
+}
+
+header{
+  height: 100%;
+  margin-bottom: 80px;
+}
+
+/* Header css*/
+
+/*nav bar*/
+html{
+  height: 100%;
+}
+
+
+nav {
+    background-color: rgba(206, 216, 130, 0.15);    
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+}
+
+ul a {
+  display: inline-block;
+  color: white;
+  padding: 20px 16px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 23px;
+  
+}
+
+
+#containervid {
+  position: relative;
+  height: 100%;
+  }
+
+#banner {
+  text-align: center;
+  color: goldenrod;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#banner, #headvid   {
+  position: absolute;
+  }
+#banner{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#jimmo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: gold;
+    text-transform: uppercase;
+    
+  }
+
+  /* section Bien*/
+
+#biens {
+  margin: auto;
+  width: 80%;
+}
+
+
+  .square_grey{
+    padding: 45px;
+    width: 49%;
+    display: inline-block;
+    height: 350px;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+    transition: all .3s;
+    background-color: lightgrey;
+    color: black;
+  }
+
+  .square_grey:hover {
+    
+      outline: 6px solid rgb(0, 0, 0);
+      transition: all .3s;
+      outline-offset: -6px;
+}
+
+  .article-title {
+    font-size: 2em;
+    font-family: 'Bree Serif', serif;
+    margin: 0 0 20px 0;
+}
+
+.article-body {
+   
+    font-size: 1em;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: justify;
+}
+
+
+
+
+

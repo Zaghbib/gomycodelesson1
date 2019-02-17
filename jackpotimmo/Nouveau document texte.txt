@@ -1,0 +1,32 @@
+nous sommes plus qu'une agence 
+architecture d'interieur 
+
+
+<!--Section presentation-->
+<section id="presentation">
+    <div>
+        <h1>Nos agents pour votre bien.</h1>
+        <p>
+                L'agence JackPotImmo est spécialisée dans la Vente, l'Achat, la Location et la Gestion locative. Notre équipe dynamique et professionnelle vous accompagne dans vos projets de vente, d'achat ou de location.<br>
+                Notre parfaite connaissance du marché de l'immobilier vous permettra de louer et vendre dans les meilleurs délais. La satisfaction client constitue notre principale motivation. Nous aurons plaisir à vous conseiller dans tous vos projets immobiliers et aurons plaisr à vous accueillir pour en discuter autour d'un café !
+        </p>
+    </div>
+    <div class="paralax">
+        <img src="res/couch.jpg" alt="couch">
+
+    </div>
+</section>
+
+<!--Section biens-->
+<section id="biens">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minus aliquid quia dolorum officiis. Necessitatibus voluptatem repellat illo dicta id ut tempore neque odio obcaecati sint quisquam, ab fugiat laudantium.</p>
+        </section>
+        <!--Section contact-->
+<section id="contact">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum minus aliquid quia dolorum officiis. Necessitatibus voluptatem repellat illo dicta id ut tempore neque odio obcaecati sint quisquam, ab fugiat laudantium.</p>
+        </section>
+
+<!--main Footer-->
+<footer>
+
+</footer>
