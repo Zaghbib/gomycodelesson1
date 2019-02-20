@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Text editor</title>
+    
+</head>
+<body>
+
+    <div class="form">
+<!--Font Family-->
+<select name="font_family" id="fontfamily">
+        <option value="Arial">Arial</option>
+        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Tahoma">Tahoma</option>
+        <option value="Geneva">Geneva</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Times New Roman">Times New Roman</option>
+    </select>
+
+
+<!--font size-->
+
+<select name="font_size" id="fontsize">
+        <option value="8px">8</option>
+        <option value="10px">10</option>
+        <option value="12px">12</option>
+        <option value="14px">14</option>
+        <option value="16px">16</option>
+        <option value="18px">18</option>
+    </select>
+
+    <!--Button bold-->
+
+    <button id="bold">B</button>
+
+    <!--Button bold-->
+
+    <button id="italic">I</button>
+
+    <!--Button Underlne-->
+
+    <button id="underline">U</button>
+    
+    <!--Zone de text-->
+
+    <div id="editor" contenteditable="true"></div>
+
+    </div>
+<!--script-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
